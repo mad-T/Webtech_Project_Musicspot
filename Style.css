@@ -1,0 +1,39 @@
+
+body{
+	font-weight: bold;
+}
+#topnav{
+	border-width: 1px;
+	border-style: solid; 
+}
+#sidebar{
+	border-width: 1px;
+	border-style: solid;
+}
+#login{
+	border-width: 1px;
+	border-style: solid;
+}
+#signin{
+	border-width: 1px;
+	border-style: solid;
+}
+#content{
+	border-width: 1px;
+	border-style: solid;
+}
+#footer{
+	border-width: 1px;
+	border-style: solid;
+}
+
+/* <!-- Music  --> */
+
+#showcomments{
+	border-width: 1px;
+	border-style: solid;
+}
+#writecomment{
+	border-width: 1px;
+	border-style: solid;
+}
