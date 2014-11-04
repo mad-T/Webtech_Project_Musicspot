@@ -18,6 +18,20 @@
 	- Upload User & Admin
 	- Suchfunktion
 
+## Requirements
+	##User:
+		-browse for song
+		-search for song
+		-listen for song
+		-manage account
+		-upload a song
+		-create playlists
+		-donate
+	##Admin:
+		-add song
+		-delete song
+		-edit song
+
 ## Kontakt
 	clgrabow@htwg-konstanz.de / malinse@htwg-konstanz.de / alweit@htwg-konstanz.de
 
