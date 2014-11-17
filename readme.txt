@@ -18,7 +18,7 @@
 	- Upload User & Admin
 	- Suchfunktion
 
-## Requirements
+## Functions
 	##User:
 		-browse for song
 		-search for song
@@ -32,6 +32,14 @@
 		-delete song
 		-edit song
 
+## Requirements
+	##
+	-Music Database
+	-User Database
+	-Video & Musicplayer
+	-Upload suggestion
+	-search-algorithm
+	-...
 ## Kontakt
 	clgrabow@htwg-konstanz.de / malinse@htwg-konstanz.de / alweit@htwg-konstanz.de
 
