@@ -1,83 +1,110 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
-		<meta content="text/html; charset=ISO-8859-1">
+		<meta charset="UTF-8">
 		<title>About</title>
-		
-		<link rel="stylesheet" type="text/css" href="./Style.css">
+		<link rel="stylesheet" href="./css/bootstrap.css">
+		<link rel="stylesheet" href="./teststyle.css">
+		<script src="./js/jquery.js"></script> 
+		<script src="./js/bootstrap.js"></script>
 	</head>
-	
 	<body>
-		
-		<div>
-			<a href="Home.html"><img id="logo" src="logo.png" alt="Logo der Firma"></a>
-		</div>
-		
-		<header class ="header">
-			<nav id="topnav">
-				<ul>
-				<li><a href="News.html">News</a></li>
-				<li><a href="Music.html">Music</a></li>
-				<li><a href="Account.html">Account</a></li>
-				</ul>
-			</nav>
+		<header>
+		  	<div id="topnav">
+				<nav class="navbar navbar-inverse">
+			        <div class="container">
+				          <div class="navbar-header">
+					            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					              <span class="icon-bar"></span>
+					              <span class="icon-bar"></span>
+					              <span class="icon-bar"></span>
+					            </button>
+					            <a class="navbar-brand" href="Home.html">UD</a>
+				          </div>
+				          <div class="navbar-collapse collapse">
+					            <ul class="nav navbar-nav">
+					              <li><a href="Home.html">News</a></li>
+					              <li><a href="Music.html">Music</a></li>
+					              <li><a href="Account.html">Account</a></li>
+					            </ul> 	
+				          </div>
+			        </div>
+		      	</nav>
+	      	</div>
 		</header>
 		
-		<div id="sidebar">
-			<ul>
-				<li>About</li>
-			</ul>
+		<!-- Content -->
+		<div id="wrapper">
+			<div id ="content" class="container">
+				<div class="row">
+			  			<div class="col-md-2" id="leftCol">
+							<div class="well"> 
+				              	<ul class="nav nav-stacked" id="sidebar">
+				                  <li><a href="#sec1">FAQ</a></li>
+				                  <li><a href="#sec2">Über uns</a></li>
+				              	</ul>
+			  				</div>
+			      		</div>  
+			      		<div class="col-md-8">
+			                    <div class="panel panel-default">
+			                      <div class="panel-body">
+								  
+										<div id="img">
+											<img src="group.png" alt="Gruppenfoto">
+										</div>
+										<div id="infotext">
+											
+												<h2>About Underdogs House</h2>
+												<p>
+													The main target of this web-application is, to increase the
+													popularity of unknown or even badly known music artists.
+													The functionality includes user entertainment through music,
+													user communication with comments, user upload suggestion
+													...
+													
+													All music we publish are free to use. The common rights you
+													will find under the details of the tracks. 
+													
+												 </p> 
+												 
+										</div>
+										
+			                    
+			                  </div>
+			              	</div>
+			      		</div> 
+			      		<div class="col-md-2">
+			      			<div class="panel panel-default">
+			      			 	<div class="panel-body"> 		
+									<form role="form">
+											<h6>Login</h6>
+										  <div class="form-group">
+										    <label for="un"></label>
+										    <input type="text" class="form-control" id="un" placeholder="Nutzername">
+										  </div>
+										  <div class="form-group">
+										    <label for="pw"></label>
+										    <input type="password" class="form-control" id="pw" placeholder="Passwort">
+										  </div>
+										  <button type="submit" class="btn btn-default">Senden</button>
+									</form>
+								</div>
+							</div>
+						</div>
+						
+			  	</div>	
+			  </div>			
+			 
+			 <footer id="footer">
+				<p class="footertext">
+					<a class="footertext" href="./Home.html">Home</a>
+					<a class="footertext" href="./Music.html">Music</a>
+					<a class="footertext" href="./Account.html">Account</a>
+					<a class="footertext" href="./Contact.html">Kontakt</a>
+					<a class="footertext"href="./About.html">About</a>
+				</p>
+		</footer>
 		</div>
-		
-		<div id="login">
-			<form action="">
-				Login:<input id="username" type="text">
-				Password:<input id="pw" type="password">
-			</form>
-			<p id="singnin"><a href="signin.html">Sign-In</a></p>
-		</div>
-		
-		<div id="content">
-		
-			</div>
-		
-			<section>
-				
-				<div id="img">
-					<img src="groupe.png" alt="Gruppenfoto">
-				</div>
-				
-				<div id="infotext">
-					
-						<h2>About Underdogs House</h2>
-						<p>
-							The main target of this web-application is, to increase the<br>
-							popularity of unknown or even badly known music artists.<br>
-							The functionality includes user entertainment through music,<br>
-							user communication with comments, user upload suggestion<br>
-							...<br>
-							<br>
-							All music we publish are free to use. The common rights you<br>
-							will find under the details of the tracks.<br> 
-							
-						 </p> 
-						 
-				</div>
-				
-			</section>
-		
-			<footer id="footer">
-				<ul>
-					<li><a href="./Home.html">Home</a></li>
-					<li><a href="./Music.html">Music</a></li>
-					<li><a href="./Account.html">Account</a></li>
-					<li><a href="./Contact.html">Kontakt</a></li>
-					<li><a href="./About.html">About</a></li>
-				</ul>
-			</footer>
-		
-		
-			
+		<!-- Content -->
 	</body>
 </html>

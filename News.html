@@ -1,75 +1,93 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="UTF-8">
-		<title>Home</title>
-		<link rel="stylesheet" type="text/css" href="./Style.css">
+		<title>Music</title>
+		<link rel="stylesheet" href="./css/bootstrap.css">
+		<link rel="stylesheet" href="./teststyle.css">
+		<script src="./js/jquery.js"></script> 
+		<script src="./js/bootstrap.js"></script>
 	</head>
-	
 	<body>
-	
-		<div>
-			<a href="Home.html"><img id="logo" src="logo.png" alt="Firmenlogo"></a>
-		</div>
-		
 		<header>
-			<nav id="topnav">
-				<ul>
-				<li><a href="News.html">News</a></li>
-				<li><a href="Music.html">Music</a></li>
-				<li><a href="Account.html">Account</a></li>
-				</ul>
-			</nav>
+		  	<div id="topnav">
+				<nav class="navbar navbar-inverse">
+			        <div class="container">
+				          <div class="navbar-header">
+					            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					              <span class="icon-bar"></span>
+					              <span class="icon-bar"></span>
+					              <span class="icon-bar"></span>
+					            </button>
+					            <a class="navbar-brand" href="Home.html">UD</a>
+				          </div>
+				          <div class="navbar-collapse collapse">
+					            <ul class="nav navbar-nav">
+					              <li class="active"><a href="Home.html">News</a></li>
+					              <li><a href="Music.html">Music</a></li>
+					              <li><a href="Account.html">Account</a></li>
+					            </ul> 	
+				          </div>
+			        </div>
+		      	</nav>
+	      	</div>
 		</header>
 		
-		<div id="sidebar">
-			<ul>
-				<li>National</li>
-				<li>International</li>
-			</ul>
-		</div>
-		
-		<div id="login">
-			<form action="">
-				Login:<input id="username" type="text">
-				Password:<input id="pw" type="password">
-			</form>
-			<p id="singnin"><a href="signin.html">Sign-In</a></p>
-		</div>
-		
-		<div id="content">
-		
-			<div id="searchbox">
-				<form action="">
-					Suche:<input id="search" type="text">
-				</form>
-			</div>
-		
-			<section>				
-				<div id="imgslider">
-					<img src="news1.png" alt="Newspic">
-				</div>
-				
-				<div id="newstext">
-					<p>
-					BenniB veröffentlicht neues Album! 
-					</p>
-				</div>
-			</section>
-			
-		</div>
-		
-		<footer id="footer">
-				<ul>
-					<li><a href="./Home.html">Home</a></li>
-					<li><a href="./Music.html">Music</a></li>
-					<li><a href="./Account.html">Account</a></li>
-					<li><a href="./Contact.html">Kontakt</a></li>
-					<li><a href="./About.html">About</a></li>
-				</ul>
+		<!-- Content -->
+		<div id="wrapper">
+			<div id ="content" class="container">
+				<div class="row">
+			  			<div class="col-md-2" id="leftCol">
+							<div class="well"> 
+				              	<ul class="nav nav-stacked" id="sidebar">
+				                  <li><a href="#sec1">National</a></li>
+				                  <li><a href="#sec2">International</a></li>
+				              	</ul>
+			  				</div>
+			      		</div>  
+			      		<div class="col-md-8">
+			                    <div class="panel panel-default">
+			                      <div class="panel-body">
+				                      <div id="newstext">
+										<h3>BenniB veröffentlicht neues Album! </h3>
+										<p>
+											 Am 10.10.1010 kommt der neue Sound :D
+										</p>
+									</div>
+			                    
+			                  </div>
+			              	</div>
+			      		</div> 
+			      		<div class="col-md-2">
+			      			<div class="panel panel-default">
+			      			 	<div class="panel-body"> 		
+									<form role="form">
+											<h6>Login</h6>
+										  <div class="form-group">
+										    <label for="un"></label>
+										    <input type="text" class="form-control" id="un" placeholder="Nutzername">
+										  </div>
+										  <div class="form-group">
+										    <label for="pw"></label>
+										    <input type="password" class="form-control" id="pw" placeholder="Passwort">
+										  </div>
+										  <button type="submit" class="btn btn-default">Senden</button>
+									</form>
+								</div>
+							</div>
+						</div>
+			  	</div>	
+			  </div>			
+			 
+			 <footer id="footer">
+				<p class="footertext">
+					<a class="footertext" href="./Home.html">Home</a>
+					<a class="footertext" href="./Music.html">Music</a>
+					<a class="footertext" href="./Account.html">Account</a>
+					<a class="footertext" href="./Contact.html">Kontakt</a>
+					<a class="footertext"href="./About.html">About</a>
+				</p>
 		</footer>
-		
-			
+		</div>
 	</body>
 </html>

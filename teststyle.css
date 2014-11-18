@@ -1,0 +1,39 @@
+.footer{
+	padding-bottom: 0;
+	padding-top: 20px;
+	margin-top: 50px;
+	heigth: 60px;
+	background-color: black;
+}
+
+.footertext{
+	color: white;
+	word-spacing:5em;
+}
+
+#sidebar{
+ color: black;
+ 
+ }
+ 
+ html, body{
+    height: 100%;
+}
+
+
+#wrapper {
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+#content {
+    padding-bottom: <HÖHE DES FOOTERS>px;
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+}
+ 
